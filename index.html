@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Launch Career | Kanban</title>
+
+    <!-- ✅ Real favicon asset -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <!-- Navigation Sidebar -->
+      <nav class="sidebar">
+        <!-- ✅ Real logo asset -->
+        <div class="brand">
+          <img
+            class="brand-logo"
+            src="assets/logo-light.svg"
+            alt="Kanban logo"
+          />
+        </div>
+
+        <div class="sidebar-content">
+          <h4 class="sidebar-label">ALL BOARDS (1)</h4>
+
+          <!-- ✅ Board icon asset -->
+          <button class="board-pill is-active" type="button">
+            <img
+              class="board-icon"
+              src="assets/icon-board.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            Launch Career
+          </button>
+        </div>
+      </nav>
+
+      <!-- Main Layout -->
+      <div class="main">
+        <header class="topbar">
+          <div>
+            <h2 class="page-title">Launch Career</h2>
+          </div>
+        </header>
+
+        <div class="content">
+          <main class="board">
+            <!-- TODO Column -->
+            <div class="column">
+              <div class="column-header">
+                <span class="status-dot todo"></span>
+                <h4>TODO</h4>
+              </div>
+
+              <div class="cards">
+                <div class="card">Launch Epic Career 🚀</div>
+                <div class="card">Learn Data Structures and Algorithms 📚</div>
+              </div>
+            </div>
+
+            <!-- DOING Column -->
+            <div class="column">
+              <div class="column-header">
+                <span class="status-dot doing"></span>
+                <h4>DOING</h4>
+              </div>
+
+              <div class="cards">
+                <div class="card">Master JavaScript 💛</div>
+                <div class="card">Keep on Going 🏆</div>
+              </div>
+            </div>
+
+            <!-- DONE Column -->
+            <div class="column">
+              <div class="column-header">
+                <span class="status-dot done"></span>
+                <h4>DONE</h4>
+              </div>
+
+              <div class="cards">
+                <div class="card">Contribute to Open Source Projects 🌐</div>
+                <div class="card">Build Portfolio Projects 🛠️</div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
